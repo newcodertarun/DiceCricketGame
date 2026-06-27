@@ -226,6 +226,59 @@
         .wicket-alert { color: #ff4d4d !important; font-weight: bold; }
         .target-alert { color: #ffb300 !important; font-weight: bold; }
         .hidden { display: none !important; }
+
+        /* --- Mobile Responsive Adjustments --- */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            .game-container {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 22px;
+                margin-bottom: 15px;
+            }
+
+            .scoreboard {
+                padding: 10px;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .score-box p {
+                font-size: 22px;
+            }
+
+            .coin {
+                width: 65px;
+                height: 65px;
+                font-size: 16px;
+            }
+
+            .dice {
+                width: 65px;
+                height: 65px;
+                font-size: 28px;
+            }
+
+            .toss-buttons {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .btn {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+            .commentary-box {
+                font-size: 13px;
+                min-height: 45px;
+            }
+        }
     </style>
 </head>
 <body>
